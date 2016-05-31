@@ -10,4 +10,20 @@
     - andrewrothstein.docker
     - andrewrothstein.docker-py
     - andrewrothstein.docker-swarm
-    - andrewrothstein.ignite
+
+- hosts: mesos
+  roles:
+    - andrewrothstein.mesosphere-mesos
+
+- hosts: zookeeper
+  roles:
+    - andrewrothstein.mesosphere-zookeeper
+
+- hosts: mesosmaster
+  roles:
+    - andrewrothstein.mesosphere-mesosmaster
+
+- hosts: mesosslave
+  roles:
+    - andrewrothstein.mesosphere-mesosslave
+
