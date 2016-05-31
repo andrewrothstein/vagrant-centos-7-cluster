@@ -4,7 +4,7 @@
 - src: andrewrothstein.ntp
 - src: andrewrothstein.ssl-key
 - src: andrewrothstein.etcd
-  version: 'v1.0.3'
+  version: 'v1.0.4'
 - src: andrewrothstein.consul
   version: 'v1.0.7'
 - src: andrewrothstein.docker
