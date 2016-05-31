@@ -21,3 +21,7 @@
   version: 'v1.0.0'
 - src: andrewrothstein.mesosphere-mesosslave
   version: 'v1.0.0'
+- src: andrewrothstein.mesosphere-marathon
+  version: 'v1.0.0'
+- src: andrewrothstein.mesosphere-chronos
+  version: 'v1.0.0'

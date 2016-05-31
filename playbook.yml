@@ -27,3 +27,10 @@
   roles:
     - andrewrothstein.mesosphere-mesosslave
 
+- hosts: marathon
+  roles:
+    - andrewrothstein.mesosphere-marathon
+
+- hosts: chronos
+  roles:
+    - andrewrothstein.mesosphere-chronos
