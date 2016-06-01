@@ -5,6 +5,8 @@
 - src: andrewrothstein.epel
 - src: andrewrothstein.ntp
 - src: andrewrothstein.ssl-key
+- src: andrewrothstein.nettools
+  version: 'v1.0.1'
 - src: andrewrothstein.etcd
   version: 'v1.0.4'
 - src: andrewrothstein.consul
@@ -26,4 +28,8 @@
 - src: andrewrothstein.mesosphere-marathon
   version: 'v1.0.0'
 - src: andrewrothstein.mesosphere-chronos
+  version: 'v1.0.0'
+- src: andrewrothstein.mesosphere-mesos-dns
+  version: 'v1.0.6'
+- src: andrewrothstein.dnsmasq
   version: 'v1.0.0'

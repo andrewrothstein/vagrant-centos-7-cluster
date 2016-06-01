@@ -6,6 +6,7 @@
     - andrewrothstein.epel
     - andrewrothstein.ntp
     - andrewrothstein.ssl-key
+    - andrewrothstein.nettools
     - andrewrothstein.etcd
     - andrewrothstein.consul
     - andrewrothstein.docker
@@ -35,3 +36,8 @@
 - hosts: chronos
   roles:
     - andrewrothstein.mesosphere-chronos
+
+- hosts: mesos-dns
+  roles:
+    - andrewrothstein.mesosphere-mesos-dns
+    - andrewrothstein.dnsmasq
