@@ -1,4 +1,6 @@
 ---
+- src: andrewrothstein.proxify
+  version: 'v1.0.6'
 - src: andrewrothstein.sudoers
 - src: andrewrothstein.epel
 - src: andrewrothstein.ntp
