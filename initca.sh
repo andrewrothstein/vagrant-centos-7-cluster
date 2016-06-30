@@ -35,7 +35,7 @@ function getkey
     ls -l $PKI_DIR/$HOSTNAME*
 }
 
-for hostid in '01' '02' '03' '04'
+for hostid in '01' '02' '03' '04' '05'
 do
     getkey $hostid
 done

@@ -1,0 +1,4 @@
+---
+- hosts: dcos
+  roles:
+    - role: "~/git/github.com/andrewrothstein/ansible-dcos-deploy"

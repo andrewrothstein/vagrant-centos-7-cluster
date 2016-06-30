@@ -1,2 +1,2 @@
 ---
-docker_daemon_args: '-H tcp://0.0.0.0:2375 --cluster-store=consul://localhost:8500 --cluster-advertise=enp0s8:2375'
+docker_daemon_args : '--storage-driver=overlay'

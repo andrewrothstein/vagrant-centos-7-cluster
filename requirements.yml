@@ -1,4 +1,5 @@
 ---
+- src: andrewrothstein.curl
 - src: andrewrothstein.proxify
   version: 'v1.0.6'
 - src: andrewrothstein.sudoers
@@ -7,29 +8,9 @@
 - src: andrewrothstein.ssl-key
 - src: andrewrothstein.nettools
   version: 'v1.0.1'
-- src: andrewrothstein.etcd
-  version: 'v1.0.4'
-- src: andrewrothstein.consul
-  version: 'v1.0.7'
 - src: andrewrothstein.docker
   version: 'v3.0.2'
 - src: andrewrothstein.docker-py
   version: 'v1.0.1'
-- src: andrewrothstein.docker-swarm
-  version: 'v2.0.0'
-- src: andrewrothstein.mesosphere-mesos
-  version: 'v1.0.0'
-- src: andrewrothstein.mesosphere-zookeeper
-  version: 'v1.0.0'
-- src: andrewrothstein.mesosphere-mesosmaster
-  version: 'v1.0.0'
-- src: andrewrothstein.mesosphere-mesosslave
-  version: 'v1.0.0'
-- src: andrewrothstein.mesosphere-marathon
-  version: 'v1.0.0'
-- src: andrewrothstein.mesosphere-chronos
-  version: 'v1.0.0'
-- src: andrewrothstein.mesosphere-mesos-dns
-  version: 'v1.0.6'
-- src: andrewrothstein.dnsmasq
-  version: 'v1.0.0'
+#- src: andrewrothstein.dcos-bootstrap
+#  version: 'v1.0.0'
