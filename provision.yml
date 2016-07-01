@@ -13,4 +13,9 @@
     - andrewrothstein.docker-py
   tasks:
     - name: add the vagrant user to the docker group
-      user: name=vagrant groups=docker
+      user: name=vagrant groups=docker append=yes
+      register: vagrant_added_to_docker_group
+    - name: Kill open ssh sessions
+      shell: "ps -ef | grep sshd | grep `whoami` | awk '{print \"kill -9\", $2}' | sh"
+      when: vagrant_added_to_docker_group | changed
+      failed_when: false
