@@ -6,9 +6,11 @@
     - andrewrothstein.proxify
     - andrewrothstein.sudoers
     - andrewrothstein.epel
+    - andrewrothstein.curl
+    - andrewrothstein.nettools
+    - andrewrothstein.unarchive-deps
     - andrewrothstein.ntp
     - andrewrothstein.ssl-key
-    - andrewrothstein.nettools
     - andrewrothstein.docker
     - andrewrothstein.docker-py
   tasks:
@@ -19,3 +21,4 @@
       shell: "ps -ef | grep sshd | grep `whoami` | awk '{print \"kill -9\", $2}' | sh"
       when: vagrant_added_to_docker_group | changed
       failed_when: false
+      ignore_errors : yes

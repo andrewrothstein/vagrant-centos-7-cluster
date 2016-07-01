@@ -1,5 +1,7 @@
 ---
 - src: andrewrothstein.curl
+- src: andrewrothstein.unarchive-deps
+  version: v1.0.0
 - src: andrewrothstein.proxify
   version: v1.0.6
 - src: andrewrothstein.sudoers
