@@ -10,7 +10,7 @@ Vagrant.configure(2) do |config|
   # For a complete reference, please see the online documentation at
   # https://docs.vagrantup.com.
 
-  $num_instances = 5
+  $num_instances = 6
 
   (1..$num_instances).each do |i|
     config.vm.define vm_name = "centos-7-%02d.vagrant"  % [i] do |config|
@@ -55,7 +55,7 @@ Vagrant.configure(2) do |config|
       #   vb.gui = true
       #
       #   # Customize the amount of memory on the VM:
-         vb.memory = "4096"
+         vb.memory = "2048"
       end
       #
       # View the documentation for the provider you are using for more

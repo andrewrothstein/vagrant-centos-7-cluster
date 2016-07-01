@@ -1,16 +1,18 @@
 ---
 - src: andrewrothstein.curl
 - src: andrewrothstein.proxify
-  version: 'v1.0.6'
+  version: v1.0.6
 - src: andrewrothstein.sudoers
 - src: andrewrothstein.epel
 - src: andrewrothstein.ntp
 - src: andrewrothstein.ssl-key
 - src: andrewrothstein.nettools
-  version: 'v1.0.1'
+  version: v1.0.1
 - src: andrewrothstein.docker
-  version: 'v3.0.2'
+  version: v3.0.2
 - src: andrewrothstein.docker-py
-  version: 'v1.0.1'
-#- src: andrewrothstein.dcos-bootstrap
+  version: v1.0.1
+- src: andrewrothstein.dcos-bootstrap
 #  version: 'v1.0.0'
+- src: andrewrothstein.dcos-deploy
+#  version : v1.0.0
