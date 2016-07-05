@@ -1,5 +1,4 @@
 ---
 - hosts: dcos-bootstrap
-  become: False
   roles:
-    - role: "~/git/github.com/andrewrothstein/ansible-dcos-bootstrap"
+    - andrewrothstein.dcos-bootstrap
