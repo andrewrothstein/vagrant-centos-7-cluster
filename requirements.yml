@@ -17,6 +17,6 @@
 - src: andrewrothstein.dcos-bootstrap
   version: v1.0.0
 - src: andrewrothstein.dcos-deploy
-  version: v1.0.0
+  version: v1.0.1
 - src: andrewrothstein.ssh-reconnect
   version: v1.0.0
