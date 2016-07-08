@@ -20,4 +20,4 @@
       register: vagrant_added_to_docker_group
     - name: ssh reconnect
       when: vagrant_added_to_docker_group | changed
-      ssh-reconnect:
+      ssh-reconnect: user=vagrant
