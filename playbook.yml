@@ -1,4 +1,6 @@
 ---
-- include: provision.yml
-- include: bootstrap.yml
-- include: deploy.yml
+- hosts: orientdb
+  roles:
+    - andrewrothstein.orientdb
+
+

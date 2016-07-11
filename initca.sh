@@ -2,7 +2,7 @@
 
 PKI_DIR=pki-dir
 PKI_KEY_SUFFIX=-key.pem
-mkdir -p $PKI_DIR-dir/{private,issued}
+mkdir -p $PKI_DIR/{private,issued}
 
 if [ ! -e $PKI_DIR/ca$PKI_KEY_SUFFIX ]
 then
@@ -35,7 +35,7 @@ function getkey
     ls -l $PKI_DIR/$HOSTNAME*
 }
 
-for hostid in '01' '02' '03' '04' '05' '06'
+for hostid in '01' '02' '03'
 do
     getkey $hostid
 done

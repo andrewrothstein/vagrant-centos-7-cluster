@@ -1,4 +1,0 @@
----
-- hosts: dcos
-  roles:
-    - andrewrothstein.dcos-deploy

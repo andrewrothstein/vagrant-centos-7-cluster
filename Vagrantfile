@@ -10,7 +10,7 @@ Vagrant.configure(2) do |config|
   # For a complete reference, please see the online documentation at
   # https://docs.vagrantup.com.
 
-  $num_instances = 6
+  $num_instances = 3
 
   (1..$num_instances).each do |i|
     config.vm.define vm_name = "centos-7-%02d.vagrant"  % [i] do |config|
@@ -79,6 +79,8 @@ Vagrant.configure(2) do |config|
         ssh_pub_key = File.readlines("#{Dir.home}/.ssh/id_rsa.pub").first.strip
         s.inline = <<-SHELL
       echo #{ssh_pub_key} >> /home/vagrant/.ssh/authorized_keys
+      sudo yum upgrade -y
+      sudo yum install -y deltarpm
     SHELL
       end
     end

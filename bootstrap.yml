@@ -1,4 +1,0 @@
----
-- hosts: dcos-bootstrap
-  roles:
-    - andrewrothstein.dcos-bootstrap
