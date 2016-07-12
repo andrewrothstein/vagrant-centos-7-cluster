@@ -2,5 +2,6 @@
 - hosts: orientdb
   roles:
     - andrewrothstein.orientdb
+    - andrewrothstein.ignite
 
 
