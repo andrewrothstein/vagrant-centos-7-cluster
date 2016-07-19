@@ -1,7 +1,6 @@
 ---
-- hosts: orientdb
+- hosts: cassandra
   roles:
-    - andrewrothstein.orientdb
-    - andrewrothstein.ignite
+    - andrewrothstein.cassandra
 
 
