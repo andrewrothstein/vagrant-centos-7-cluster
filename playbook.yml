@@ -1,6 +1,6 @@
 ---
-- hosts: cassandra
+- hosts: hadoop
   roles:
-    - andrewrothstein.cassandra
+    - andrewrothstein.hadoop
 
 
