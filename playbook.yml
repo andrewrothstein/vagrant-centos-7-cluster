@@ -2,5 +2,15 @@
 - hosts: hadoop
   roles:
     - andrewrothstein.hadoop
+    - andrewrothstein.spark
+
+- hosts: docker-machine
+  roles:
+    - andrewrothstein.docker-machine
+
+- hosts: kdc
+  roles:
+    - andrewrothstein.kdc
+
 
 

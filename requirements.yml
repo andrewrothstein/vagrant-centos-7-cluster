@@ -1,3 +1,5 @@
 ---
 - src: andrewrothstein.hadoop
+- src: andrewrothstein.spark
+- src: andrewrothstein.kdc
 
