@@ -1,2 +1,5 @@
 ---
-docker_daemon_args : '--storage-driver=overlay'
+docker_storage_driver : overlay
+docker_pki_dir: ./pki-dir
+docker_cluster_store: consul://localhost:8500
+docker_cluster_advertise_interface: enp0s8

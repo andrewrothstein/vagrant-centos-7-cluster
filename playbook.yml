@@ -1,16 +1,20 @@
 ---
-- hosts: hadoop
+- hosts: ssl-key
   roles:
-    - andrewrothstein.hadoop
-    - andrewrothstein.spark
+    - andrewrothstein.ssl-key
 
-- hosts: docker-machine
+- hosts: consul
   roles:
-    - andrewrothstein.docker-machine
-
-- hosts: kdc
+    - andrewrothstein.consul
+    
+- hosts: docker
   roles:
-    - andrewrothstein.kdc
+    - andrewrothstein.docker
 
+- hosts: cassandra
+  roles:
+    - andrewrothstein.cassandra
 
-
+- hosts: pithos
+  roles:
+    - andrewrothstein.pithos

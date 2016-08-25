@@ -1,5 +1,11 @@
 ---
-- src: andrewrothstein.hadoop
-- src: andrewrothstein.spark
-- src: andrewrothstein.kdc
-
+- src: andrewrothstein.ssl-key
+  version: v2.0.0
+- src: andrewrothstein.consul
+  version: v2.0.0
+- src: andrewrothstein.docker
+  version: v4.0.3
+- src: andrewrothstein.cassandra
+  version: v1.0.1
+- src: andrewrothstein.pithos
+#  version: v1.0.0
