@@ -2,7 +2,7 @@
 
 PKI_DIR=pki-dir
 PKI_KEY_SUFFIX=-key.pem
-mkdir -p $PKI_DIR/{private,issued}
+mkdir -p $PKI_DIR
 
 if [ ! -e $PKI_DIR/ca$PKI_KEY_SUFFIX ]
 then
@@ -13,7 +13,7 @@ fi
 echo CA files...
 ls -l $PKI_DIR/ca*
 
-DOMAIN=vagrant
+DOMAIN=vagrant.local
 CLUSTER=centos-7
 function getkey
 {

@@ -13,7 +13,7 @@ Vagrant.configure(2) do |config|
   $num_instances = 3
 
   (1..$num_instances).each do |i|
-    config.vm.define vm_name = "centos-7-%02d.vagrant"  % [i] do |config|
+    config.vm.define vm_name = "centos-7-%02d.vagrant.local"  % [i] do |config|
       config.vm.hostname = vm_name
       
       # Every Vagrant development environment requires a box. You can search for
