@@ -13,7 +13,7 @@ Vagrant.configure(2) do |config|
   $num_instances = 3
 
   (1..$num_instances).each do |i|
-    config.vm.define vm_name = "centos-7-%02d.vagrant.local"  % [i] do |config|
+    config.vm.define vm_name = "centos-7-%02d.vagrant.test"  % [i] do |config|
       config.vm.hostname = vm_name
       
       # Every Vagrant development environment requires a box. You can search for
@@ -51,11 +51,12 @@ Vagrant.configure(2) do |config|
       # Example for VirtualBox:
       #
       config.vm.provider "virtualbox" do |vb|
-      #   # Display the VirtualBox GUI when booting the machine
-      #   vb.gui = true
-      #
-      #   # Customize the amount of memory on the VM:
-         vb.memory = "2048"
+        # Display the VirtualBox GUI when booting the machine
+        # vb.gui = true
+        # Customize the amount of memory on the VM:
+        vb.memory = "2048"
+        # Use the host DNS
+        vb.customize ["modifyvm", :id, "--natdnshostresolver1", "on"]
       end
       #
       # View the documentation for the provider you are using for more

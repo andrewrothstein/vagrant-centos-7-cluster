@@ -13,7 +13,7 @@ fi
 echo CA files...
 ls -l $PKI_DIR/ca*
 
-DOMAIN=vagrant.local
+DOMAIN=vagrant.test
 CLUSTER=centos-7
 function getkey
 {
