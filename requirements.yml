@@ -8,4 +8,6 @@
 - src: andrewrothstein.cassandra
   version: v1.0.1
 - src: andrewrothstein.pithos
-#  version: v1.0.0
+  version: v1.0.0
+- src: andrewrothstein.docker-registry
+  version: v2.0.0

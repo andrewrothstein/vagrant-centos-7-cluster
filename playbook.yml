@@ -18,3 +18,7 @@
 - hosts: pithos
   roles:
     - andrewrothstein.pithos
+
+- hosts: docker-registry
+  roles:
+    - andrewrothstein.docker-registry
