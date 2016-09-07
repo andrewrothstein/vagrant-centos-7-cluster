@@ -1,2 +1,2 @@
 #!/usr/bin/env bash
-ansible '*' -i inventory.ini -m ping
+ansible all -m ping
