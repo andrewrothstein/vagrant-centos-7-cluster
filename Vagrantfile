@@ -20,25 +20,6 @@ Vagrant.configure(2) do |config|
       # boxes at https://atlas.hashicorp.com/search.
       config.vm.box = "bento/centos-7.2"
 
-      if Vagrant.has_plugin?("vagrant-cachier")
-        # Configure cached packages to be shared between instances of the same base box.
-        # More info on http://fgrehm.viewdocs.io/vagrant-cachier/usage
-        config.cache.scope = :box
-
-        # OPTIONAL: If you are using VirtualBox, you might want to use that to enable
-        # NFS for shared folders. This is also very useful for vagrant-libvirt if you
-        # want bi-directional sync
-        config.cache.synced_folder_opts = {
-          type: :nfs,
-          # The nolock option can be useful for an NFSv3 client that wants to avoid the
-          # NLM sideband protocol. Without this option, apt-get might hang if it tries
-          # to lock files needed for /var/cache/* operations. All of this can be avoided
-          # by using NFSv4 everywhere. Please note that the tcp option is not the default.
-          mount_options: ['rw', 'vers=3', 'tcp', 'nolock']
-        }
-        # For more information please check http://docs.vagrantup.com/v2/synced-folders/basic_usage.html
-      end
-      
       # Disable automatic box update checking. If you disable this, then
       # boxes will only be checked for updates when the user runs
       # `vagrant box outdated`. This is not recommended.
@@ -73,7 +54,7 @@ Vagrant.configure(2) do |config|
         # Display the VirtualBox GUI when booting the machine
         # vb.gui = true
         # Customize the amount of memory on the VM:
-        vb.memory = "4096"
+        vb.memory = "2048"
         # Use the host DNS
         vb.customize ["modifyvm", :id, "--natdnshostresolver1", "on"]
       end
@@ -99,8 +80,6 @@ Vagrant.configure(2) do |config|
         ssh_pub_key = File.readlines("#{Dir.home}/.ssh/id_rsa.pub").first.strip
         s.inline = <<-SHELL
       echo #{ssh_pub_key} >> /home/vagrant/.ssh/authorized_keys
-      sudo yum install -y deltarpm
-      sudo yum upgrade -y
     SHELL
       end
     end

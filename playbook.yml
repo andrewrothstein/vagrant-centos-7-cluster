@@ -3,22 +3,18 @@
   roles:
     - andrewrothstein.ssl-key
 
-- hosts: consul
+- hosts: kafka
   roles:
-    - andrewrothstein.consul
-    
-- hosts: docker
-  roles:
-    - andrewrothstein.docker
+    - andrewrothstein.kafka
 
-- hosts: cassandra
+- hosts: kafka-broker
   roles:
-    - andrewrothstein.cassandra
+    - andrewrothstein.kafka-broker
 
-- hosts: pithos
+- hosts: kafka-producer
   roles:
-    - andrewrothstein.pithos
+    - andrewrothstein.kafka-producer
 
-- hosts: docker-registry
+- hosts: kafka-consumer
   roles:
-    - andrewrothstein.docker-registry
+    - andrewrothstein.kafka-consumer
