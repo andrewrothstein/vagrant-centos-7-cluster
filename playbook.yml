@@ -3,9 +3,9 @@
   roles:
     - andrewrothstein.ssl-key
 
-- hosts: kafka
+- hosts: zookeeper
   roles:
-    - andrewrothstein.kafka
+    - andrewrothstein.zookeeper-cluster
 
 - hosts: kafka-broker
   roles:

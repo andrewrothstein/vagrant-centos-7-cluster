@@ -1,3 +1,4 @@
 ---
 mesosphere_zk_iface : enp0s8
 zk_iface : enp0s8
+zookeeper_network_iface: enp0s8
