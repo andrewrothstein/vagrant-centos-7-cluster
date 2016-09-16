@@ -1,3 +1,2 @@
 ---
-consul_agent_network_iface : enp0s8
 consul_agent_bootstrap_expect: 3

@@ -1,12 +1,5 @@
 ---
 - src: andrewrothstein.ssl-key
   version: v2.0.0
-- src: andrewrothstein.zookeeper-cluster
-  version: v1.0.1
-- src: andrewrothstein.kafka-broker
+- src: andrewrothstein.consul-cluster
   version: v1.0.0
-- src: andrewrothstein.kafka-producer
-  version: v1.0.0
-- src: andrewrothstein.kafka-consumer
-  version: v1.0.0
-

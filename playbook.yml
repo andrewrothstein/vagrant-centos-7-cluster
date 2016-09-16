@@ -3,18 +3,7 @@
   roles:
     - andrewrothstein.ssl-key
 
-- hosts: zookeeper
+- hosts: consul
   roles:
-    - andrewrothstein.zookeeper-cluster
+    - andrewrothstein.consul-cluster
 
-- hosts: kafka-broker
-  roles:
-    - andrewrothstein.kafka-broker
-
-- hosts: kafka-producer
-  roles:
-    - andrewrothstein.kafka-producer
-
-- hosts: kafka-consumer
-  roles:
-    - andrewrothstein.kafka-consumer
