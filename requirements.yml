@@ -2,4 +2,4 @@
 - src: andrewrothstein.ssl-key
   version: v2.0.0
 - src: andrewrothstein.consul-cluster
-  version: v1.0.0
+  version: v1.0.2
