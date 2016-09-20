@@ -1,0 +1,4 @@
+---
+etcd_network_iface: enp0s8
+etcd_cluster_name: test-etcd-cluster
+etcd_pki_dir: './pki-dir'
