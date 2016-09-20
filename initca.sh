@@ -17,7 +17,8 @@ DOMAIN=vagrant.test
 CLUSTER=centos-7
 function getkey
 {
-    WORKER_NO=$1
+    WORKER_ID=$1
+    WORKER_NO="0${WORKER_ID}"
     HOSTNAME=$CLUSTER-$WORKER_NO.$DOMAIN
     LB_NAME=$CLUSTER.$DOMAIN
     LB_SUBS="*.$CLUSTER.$DOMAIN"
@@ -27,7 +28,7 @@ function getkey
 	    gencert \
 	    -ca $PKI_DIR/ca.pem \
 	    -ca-key $PKI_DIR/ca$PKI_KEY_SUFFIX \
-	    -hostname=$HOSTNAME,$LB_NAME,$LB_SUBS \
+	    -hostname=$HOSTNAME,$LB_NAME,$LB_SUBS,192.168.33.$(( WORKER_ID + 6 )) \
 	    $PKI_DIR/host.json \
 	    | cfssljson -bare $PKI_DIR/$HOSTNAME
     fi
@@ -35,7 +36,7 @@ function getkey
     ls -l $PKI_DIR/$HOSTNAME*
 }
 
-for hostid in '01' '02' '03'
+for hostid in 1 2 3
 do
     getkey $hostid
 done
