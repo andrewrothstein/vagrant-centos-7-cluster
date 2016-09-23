@@ -7,7 +7,8 @@
   roles:
     - andrewrothstein.consul-cluster
 
-- hosts: etcd
+- hosts: vault
   roles:
-    - andrewrothstein.etcd-cluster
+    - andrewrothstein.vault-consul-cluster
+
 

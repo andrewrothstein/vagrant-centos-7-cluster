@@ -3,5 +3,7 @@
   version: v2.0.0
 - src: andrewrothstein.consul-cluster
   version: v1.0.3
-- src: andrewrothstein.etcd-cluster
+- src: andrewrothstein.vault-consul-cluster
   version: v1.0.0
+
+  
