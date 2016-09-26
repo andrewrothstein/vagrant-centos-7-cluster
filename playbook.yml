@@ -7,6 +7,10 @@
   roles:
     - andrewrothstein.consul-cluster
 
+- hosts: docker
+  roles:
+    - andrewrothstein.docker
+    
 - hosts: vault
   roles:
     - andrewrothstein.vault-consul-cluster
