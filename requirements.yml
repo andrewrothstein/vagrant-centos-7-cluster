@@ -5,7 +5,7 @@
   version: v1.0.4
 - src: andrewrothstein.docker
   version: v4.2.2
-- src: andrewrothstein.vault-consul-cluster
-  version: v1.0.1
+- src: andrewrothstein.couchdb-cluster
+#  version: v1.0.0
 
   

@@ -1,0 +1,4 @@
+---
+couchdb_pki_dir: ./pki-dir
+couchdb_secure: True
+couchdb_network_iface: enp0s8

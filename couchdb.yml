@@ -1,0 +1,4 @@
+---
+- hosts: couchdb
+  roles:
+    - role: "~/git/github.com/andrewrothstein/ansible-couchdb"    

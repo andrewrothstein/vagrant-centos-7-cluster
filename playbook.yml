@@ -11,8 +11,8 @@
   roles:
     - andrewrothstein.docker
     
-- hosts: vault
+- hosts: couchdb
   roles:
-    - andrewrothstein.vault-consul-cluster
+    - andrewrothstein.couchdb-cluster
 
 
