@@ -1,2 +1,2 @@
 ---
-docker_registry_container: andrewrothstein/distribution:latest
+docker_registry_container: registry:2.5.1
