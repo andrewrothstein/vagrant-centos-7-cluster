@@ -1,2 +1,2 @@
 ---
-ignite_network_interface : enp0s8
+ignite_network_interface : eth1

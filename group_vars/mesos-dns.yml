@@ -1,2 +1,2 @@
 ---
-mesos_dns_mesos_master_iface : enp0s8
+mesos_dns_mesos_master_iface : eth1

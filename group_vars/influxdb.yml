@@ -1,2 +1,2 @@
 ---
-influxdb_network_interface : enp0s8
+influxdb_network_interface : eth1

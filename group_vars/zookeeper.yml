@@ -1,4 +1,4 @@
 ---
-mesosphere_zk_iface : enp0s8
-zk_iface : enp0s8
-zookeeper_network_iface: enp0s8
+mesosphere_zk_iface : eth1
+zk_iface : eth1
+zookeeper_network_iface: eth1

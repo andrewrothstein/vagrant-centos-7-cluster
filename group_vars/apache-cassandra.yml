@@ -1,5 +1,5 @@
 ---
 cassandra_cluster_name : test-cassandra-cluster
-cassandra_listen_network_interface : enp0s8
-cassandra_rpc_network_interface: enp0s8
+cassandra_listen_network_interface : eth1
+cassandra_rpc_network_interface: eth1
 

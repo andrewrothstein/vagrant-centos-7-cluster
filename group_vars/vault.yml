@@ -1,3 +1,5 @@
 ---
 vault_pki_dir: './pki-dir'
-vault_network_iface: enp0s8
+vault_network_iface: eth1
+vault_consul_network_iface: eth1
+
