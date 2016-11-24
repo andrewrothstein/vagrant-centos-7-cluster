@@ -1,2 +1,2 @@
 ---
-kafka_iface: enp0s8
+kafka_iface: eth1

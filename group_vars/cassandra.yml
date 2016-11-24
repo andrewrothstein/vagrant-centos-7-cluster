@@ -1,2 +1,2 @@
 ---
-cassandra_network_iface: enp0s8
+cassandra_network_iface: eth1

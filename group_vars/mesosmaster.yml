@@ -1,2 +1,2 @@
 ---
-mesosphere_mesosmaster_iface : enp0s8
+mesosphere_mesosmaster_iface : eth1

@@ -1,2 +1,2 @@
 ---
-mesosphere_marathon_zk_iface : enp0s8
+mesosphere_marathon_zk_iface : eth1

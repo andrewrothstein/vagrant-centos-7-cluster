@@ -1,2 +1,2 @@
 ---
-docker_swarm_network_iface : enp0s8
+docker_swarm_network_iface : eth1
