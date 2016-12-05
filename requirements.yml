@@ -4,5 +4,5 @@
 - src: andrewrothstein.consul-cluster
   version: v1.0.9
 - src: andrewrothstein.docker
-  version: v4.2.2
-  
+  version: v4.3.0
+
