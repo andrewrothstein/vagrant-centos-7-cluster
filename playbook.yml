@@ -10,3 +10,7 @@
 - hosts: docker
   roles:
     - andrewrothstein.docker
+
+- hosts: all
+  roles:
+    - andrewrothstein.bash-dcb
