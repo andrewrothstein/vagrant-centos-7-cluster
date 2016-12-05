@@ -13,7 +13,7 @@ Vagrant.configure(2) do |config|
   config.hostmanager.manage_host = true
   config.hostmanager.manage_guest = true
 
-  $num_instances = 3
+  $num_instances = 4
 
   (1..$num_instances).each do |i|
     config.vm.define vm_name = "centos-7-%02d.vagrant.test"  % [i] do |config|

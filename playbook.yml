@@ -7,10 +7,6 @@
   roles:
     - andrewrothstein.ssl-key
 
-- hosts: consul
+- hosts: etcd
   roles:
-    - andrewrothstein.consul-cluster
-
-- hosts: docker
-  roles:
-    - andrewrothstein.docker
+    - andrewrothstein.etcd-cluster
