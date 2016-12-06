@@ -1,0 +1,6 @@
+---
+#- hosts: all
+#  roles:
+#    - role: ~/git/github.com/andrewrothstein/ansible-orientdb-cluster
+#    - role: ~/git/github.com/andrewrothstein/ansible-java-oracle-jre
+#    - role: ~/git/github.com/andrewrothstein/ansible-orientdb
