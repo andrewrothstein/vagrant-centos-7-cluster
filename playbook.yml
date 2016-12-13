@@ -1,12 +1,4 @@
 ---
-- hosts: ssl-key
+- hosts: zookeeper
   roles:
-    - andrewrothstein.ssl-key
-
-- hosts: consul
-  roles:
-    - andrewrothstein.consul-cluster
-
-- hosts: docker
-  roles:
-    - andrewrothstein.docker
+    - andrewrothstein.zookeeper-cluster
