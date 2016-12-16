@@ -4,4 +4,4 @@
     - andrewrothstein.zookeeper-cluster
 - hosts: kafka-broker
   roles:
-    - role: ~/git/github.com/andrewrothstein/ansible-kafka-broker
+    - andrewrothstein.kafka-broker
