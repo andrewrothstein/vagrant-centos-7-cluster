@@ -2,6 +2,5 @@
 .vagrant
 .ansible-roles/**
 *.retry
-pki-dir/*.pem
-pki-dir/*.csr
+pki-dir/*
 .ansible-factcache/**
