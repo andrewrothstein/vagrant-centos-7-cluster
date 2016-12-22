@@ -2,5 +2,4 @@
 vagrant up \
 && ./ping.sh \
 && ./getroles.sh \
-&& ./initca.sh \
 && ./converge.sh
