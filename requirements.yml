@@ -5,4 +5,5 @@
   version: v1.0.9
 - src: andrewrothstein.docker
   version: v4.3.0
-
+- src: andrewrothstein.pki
+  version: v1.0.3

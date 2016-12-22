@@ -1,2 +1,2 @@
 #!/usr/bin/env bash
-ansible all -m ping
+ansible -m ping all

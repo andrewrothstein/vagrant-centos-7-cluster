@@ -1,0 +1,30 @@
+---
+pki_dir: '{{playbook_dir}}/pki-dir'
+pki_names:
+  - C: US
+    L: Englewood
+    O: Drewfus
+    OU: Head Quarters
+    ST: New Jersey
+
+pki_key:
+  algo: rsa
+  size: 4096
+
+pki_self_sign: True
+pki_ca:
+  cname: ca.vagrant.test
+
+pki_servers:
+  - cname: centos-7-01.vagrant.test
+    altips:
+      - 192.168.33.7
+  - cname: centos-7-02.vagrant.test
+    altips:
+      - 192.168.33.8
+  - cname: centos-7-03.vagrant.test
+    altips:
+      - 192.168.33.9
+  - cname: centos-7-04.vagrant.test
+    altips:
+      - 192.168.33.10
