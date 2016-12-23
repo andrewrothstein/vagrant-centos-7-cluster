@@ -3,10 +3,11 @@
   roles:
     - andrewrothstein.pki
 
-- hosts: ssl-key
-  roles:
-    - andrewrothstein.ssl-key
-
 - hosts: etcd
   roles:
     - andrewrothstein.etcd-cluster
+
+- hosts: kubernetes
+  roles:
+    - andrewrothstein.kubernetes
+#    - role: ~/git/github.com/andrewrothstein/ansible-kubernetes-cluster

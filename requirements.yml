@@ -3,3 +3,5 @@
   version: v1.0.3
 - src: andrewrothstein.etcd-cluster
   version: v1.0.2
+- src: andrewrothstein.kubernetes
+  version: v1.0.0
