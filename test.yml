@@ -1,0 +1,4 @@
+---
+- hosts: kubernetes
+  roles:
+    - role: ~/git/github.com/andrewrothstein/ansible-kubernetes-cluster
