@@ -7,5 +7,7 @@
   version: v1.0.10
 - src: andrewrothstein.etcd-cluster
   version: v1.0.2
+- src: andrewrothstein.kubectl
+  version: v1.0.5
 - src: andrewrothstein.kubernetes
   version: v1.0.0
