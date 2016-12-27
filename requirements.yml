@@ -1,6 +1,10 @@
 ---
 - src: andrewrothstein.pki
   version: v1.0.3
+- src: andrewrothstein.docker
+  version: v4.3.0
+- src: andrewrothstein.consul-cluster
+  version: v1.0.10
 - src: andrewrothstein.etcd-cluster
   version: v1.0.2
 - src: andrewrothstein.kubernetes

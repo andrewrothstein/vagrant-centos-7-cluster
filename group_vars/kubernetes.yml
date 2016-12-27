@@ -1,2 +1,3 @@
 ---
 k8s_src_pki_dir: ./pki-dir
+k8s_network_iface: eth1
