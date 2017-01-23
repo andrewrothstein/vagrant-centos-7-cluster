@@ -3,10 +3,6 @@
   roles:
     - andrewrothstein.pki
 
-- hosts: ssl-key
-  roles:
-    - andrewrothstein.ssl-key
-
 - hosts: consul
   roles:
     - andrewrothstein.consul-cluster
