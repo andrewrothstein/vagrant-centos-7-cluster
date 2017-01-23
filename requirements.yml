@@ -1,5 +1,5 @@
 ---
 - src: andrewrothstein.pki
-  version: v1.0.3
+  version: v1.0.4
 - src: andrewrothstein.etcd-cluster
-  version: v1.0.2
+  version: v1.0.4
