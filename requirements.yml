@@ -1,9 +1,9 @@
 ---
-- src: andrewrothstein.ssl-key
-  version: v2.0.1
-- src: andrewrothstein.consul-cluster
-  version: v1.0.9
-- src: andrewrothstein.docker
-  version: v4.3.0
 - src: andrewrothstein.pki
-  version: v1.0.3
+  version: v1.0.4
+- src: andrewrothstein.etcd-cluster
+  version: v1.0.5
+- src: andrewrothstein.consul-cluster
+  version: v1.0.11
+- src: andrewrothstein.docker
+  version: v5.0.1

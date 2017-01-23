@@ -3,9 +3,9 @@
   roles:
     - andrewrothstein.pki
 
-- hosts: ssl-key
+- hosts: etcd
   roles:
-    - andrewrothstein.ssl-key
+    - andrewrothstein.etcd-cluster
 
 - hosts: consul
   roles:
