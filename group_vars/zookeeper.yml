@@ -1,4 +1,0 @@
----
-mesosphere_zk_iface : eth1
-zk_iface : eth1
-zookeeper_network_iface: eth1

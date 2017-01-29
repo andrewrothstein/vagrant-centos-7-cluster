@@ -1,4 +1,0 @@
----
-dcos_bootstrap_iface : eth1
-dcos_bootstrap_port : 8080
-

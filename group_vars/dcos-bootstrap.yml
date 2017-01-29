@@ -1,4 +1,0 @@
----
-dcos_bootstrap_ssh_user : vagrant
-dcos_bootstrap_iface : eth1
-

@@ -1,4 +1,0 @@
----
-orientdb_hazelcast_multicast_enabled: false
-orientdb_hazelcast_tcp_enabled: true
-orientdb_hazelcast_tcp_network_interface: eth1

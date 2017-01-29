@@ -1,8 +1,0 @@
----
-pki_dir : 'pki-dir'
-pki_key_suffix: '-key.pem'
-pki_cert_suffix: '.pem'
-
-pki_keys_subdir : '.'
-pki_certs_subdir : '.'
-pki_ca_cert_subdir : '.'

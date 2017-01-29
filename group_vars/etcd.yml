@@ -1,4 +1,4 @@
 ---
 etcd_network_iface: eth1
 etcd_cluster_name: test-etcd-cluster
-etcd_pki_dir: './pki-dir'
+etcd_pki_dir: '{{playbook_dir}}/pki-dir'

@@ -7,14 +7,11 @@
   roles:
     - andrewrothstein.etcd-cluster
 
-- hosts: consul
-  roles:
-    - andrewrothstein.consul-cluster
-    
 - hosts: docker
   roles:
     - andrewrothstein.docker
     
 - hosts: kubernetes
   roles:
+#    - role: ~/git/github.com/andrewrothstein/ansible-kubernetes-cluster
     - andrewrothstein.kubernetes-cluster
