@@ -3,10 +3,18 @@
   roles:
     - andrewrothstein.pki
 
-- hosts: consul
-  roles:
-    - andrewrothstein.consul-cluster
-
 - hosts: docker
   roles:
     - andrewrothstein.docker
+
+- hosts: cassandra-cluster
+  roles:
+    - andrewrothstein.cassandra-cluster
+
+- hosts: pithos
+  roles:
+    - andrewrothstein.pithos
+    
+- hosts: docker-registry
+  roles:
+    - andrewrothstein.docker-registry

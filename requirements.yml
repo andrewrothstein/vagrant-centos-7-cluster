@@ -1,7 +1,11 @@
 ---
 - src: andrewrothstein.pki
   version: v1.0.4
-- src: andrewrothstein.consul-cluster
-  version: v1.0.11
+- src: andrewrothstein.cassandra-cluster
+  version: v1.0.0
+- src: andrewrothstein.pithos
+  version: v2.0.0
 - src: andrewrothstein.docker
   version: v5.0.1
+- src: andrewrothstein.docker-registry
+  version: v2.0.1

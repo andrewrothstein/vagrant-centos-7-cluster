@@ -1,2 +1,4 @@
 ---
 pithos_network_interface: eth1
+pithos_key: a8ffd786-e81e-11e6-99b5-0ba0466abd4f
+pithos_secret: e06996b2-e81e-11e6-bb28-1b752defb207

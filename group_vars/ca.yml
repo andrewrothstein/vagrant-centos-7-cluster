@@ -25,6 +25,3 @@ pki_servers:
   - cname: centos-7-03.vagrant.test
     altips:
       - 192.168.33.9
-  - cname: centos-7-04.vagrant.test
-    altips:
-      - 192.168.33.10

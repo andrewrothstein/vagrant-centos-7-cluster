@@ -1,0 +1,4 @@
+---
+- hosts: docker-registry
+  roles:
+    - role: ~/git/github.com/andrewrothstein/ansible-docker-registry
