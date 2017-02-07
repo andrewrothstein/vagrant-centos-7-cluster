@@ -1,9 +1,11 @@
 ---
 - src: andrewrothstein.pki
-  version: v1.0.4
+  version: v1.0.5
 - src: andrewrothstein.etcd-cluster
   version: v1.0.6
+- src: andrewrothstein.flannel-cluster
+  version: v1.0.1
 - src: andrewrothstein.docker
-  version: v5.0.1
+  version: v5.0.2
 - src: andrewrothstein.kubernetes-cluster
-  version: v1.0.3
+  version: v1.0.6

@@ -1,3 +1,11 @@
 ---
 docker_storage_driver : overlay
 docker_pki_dir: '{{playbook_dir}}/pki-dir'
+docker_bip: ${FLANNEL_SUBNET}
+docker_mtu: ${FLANNEL_MTU}
+docker_systemd_envs:
+  - /run/flannel/subnet.env
+docker_systemd_afters:
+  - flanneld.service
+docker_cluster_store: etcd://{{inventory_hostname}}:2379
+docker_cluster_advertise_interface: eth1

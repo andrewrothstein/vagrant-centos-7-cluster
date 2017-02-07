@@ -7,6 +7,10 @@
   roles:
     - andrewrothstein.etcd-cluster
 
+- hosts: flannel
+  roles:
+    - andrewrothstein.flannel-cluster
+
 - hosts: docker
   roles:
     - andrewrothstein.docker
