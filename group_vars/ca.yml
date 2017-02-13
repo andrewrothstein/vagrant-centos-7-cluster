@@ -20,14 +20,17 @@ pki_servers:
     include_localhost: True
     altips:
       - 192.168.33.7
+      - 10.254.0.1
   - cname: centos-7-02.vagrant.test
     include_localhost: True
     altips:
       - 192.168.33.8
+      - 10.254.0.1
   - cname: centos-7-03.vagrant.test
     include_localhost: True
     altips:
       - 192.168.33.9
+      - 10.254.0.1
   - cname: centos-7-04.vagrant.test
     include_localhost: True
     altips:
