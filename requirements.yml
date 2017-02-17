@@ -8,4 +8,4 @@
 - src: andrewrothstein.docker
   version: v5.0.2
 - src: andrewrothstein.kubernetes-cluster
-  version: v1.0.7
+  version: v1.0.8
