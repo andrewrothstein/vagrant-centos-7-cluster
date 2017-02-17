@@ -1,0 +1,4 @@
+---
+- hosts: flannel
+  roles:
+    - andrewrothstein.flannel-cluster

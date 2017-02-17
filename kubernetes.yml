@@ -1,0 +1,4 @@
+---
+- hosts: kubernetes
+  roles:
+    - andrewrothstein.kubernetes-cluster

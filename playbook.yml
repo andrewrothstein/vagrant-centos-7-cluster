@@ -1,20 +1,6 @@
 ---
-- hosts: ca
-  roles:
-    - andrewrothstein.pki
-
-- hosts: etcd
-  roles:
-    - andrewrothstein.etcd-cluster
-
-- hosts: flannel
-  roles:
-    - andrewrothstein.flannel-cluster
-
-- hosts: docker
-  roles:
-    - andrewrothstein.docker
-    
-- hosts: kubernetes
-  roles:
-    - andrewrothstein.kubernetes-cluster
+- include: pki.yml
+- include: etcd-cluster.yml
+- include: flannel.yml
+- include: docker.yml
+- include: kubernetes.yml

@@ -1,0 +1,4 @@
+---
+- hosts: ca
+  roles:
+    - andrewrothstein.pki
