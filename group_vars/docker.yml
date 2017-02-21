@@ -1,5 +1,0 @@
----
-docker_storage_driver : overlay
-docker_pki_dir: ./pki-dir
-docker_cluster_store: consul://{{inventory_hostname}}:8501
-docker_cluster_advertise_interface: eth1

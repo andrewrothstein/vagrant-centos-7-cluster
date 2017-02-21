@@ -1,5 +1,5 @@
 ---
-vault_pki_dir: './pki-dir'
+vault_pki_dir: '{{playbook_dir}}/pki-dir'
 vault_network_iface: eth1
 vault_consul_network_iface: eth1
 
