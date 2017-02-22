@@ -4,4 +4,4 @@
 - src: andrewrothstein.consul-cluster
   version: v1.0.12
 - src: andrewrothstein.vault-consul-cluster
-  version: v1.0.4
+  version: v1.0.6

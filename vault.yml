@@ -1,0 +1,5 @@
+---
+- hosts: vault
+  roles:
+    - andrewrothstein.vault-consul-cluster
+#    - role: ~/git/github.com/andrewrothstein/ansible-vault-consul-cluster

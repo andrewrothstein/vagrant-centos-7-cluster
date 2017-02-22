@@ -1,12 +1,5 @@
 ---
-- hosts: ca
-  roles:
-    - andrewrothstein.pki
+- include: pki.yml
+- include: consul.yml
+- include: vault.yml
 
-- hosts: consul
-  roles:
-    - andrewrothstein.consul-cluster
-
-- hosts: vault
-  roles:
-    - andrewrothstein.vault-consul-cluster

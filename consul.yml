@@ -1,0 +1,5 @@
+---
+- hosts: consul
+  roles:
+    - andrewrothstein.consul-cluster
+#    - role: ~/git/github.com/andrewrothstein/ansible-consul-cluster
